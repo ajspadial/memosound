@@ -6,7 +6,7 @@ angular.module('myApp.controllers', []).
   controller('MyCtrl1', function($scope) {
 	$scope.sounds = [];
 	for(var i = 0; i < 24; i++) {
-		$scope.push(
+		$scope.sounds.push(
 			{pic: 'http://osxdaily.com/wp-content/uploads/2013/03/sound-icon.png'}
 		);
 	};
